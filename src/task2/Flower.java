@@ -3,22 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package task1;
+package task2;
 
 /**
  *
  * @author smcgovern2
  */
-public class Flower extends Plant {
-    
+public abstract class Flower {
     public String color;
     public double heightInInches;
-    
-    @Override
-    public void absorbWater(){
-        System.out.println("Absorbs water like a flower does");
-    }
-    
     
     public String getColor() {
         return color;
@@ -35,7 +28,4 @@ public class Flower extends Plant {
     public void setHeightInInches(double heightInInches) {
         this.heightInInches = heightInInches;
     }
-    
-    
-    
 }

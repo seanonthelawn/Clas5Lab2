@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package task1;
+package task2;
 
 /**
  *
  * @author smcgovern2
  */
-public class Plant {
+public abstract class Plant {
     
     private double waterLevel;
     private double nutrientLevel;
